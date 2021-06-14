@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc9177e6b2cc6248b5ca29b8e3de50d, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  startingCount: 0
+  cost: 12
+  trainTime: 12
+  trainedSound:
+    clip: {fileID: 8300000, guid: ac89ea9fdae5e9444ab87213970c9780, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  upkeep: 2
+  killsEnemies: 1
+  isKilled: 0
+  unitType: 1
